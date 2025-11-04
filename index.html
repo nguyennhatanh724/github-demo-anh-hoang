@@ -1,1 +1,38 @@
-<h1>ANh Hoang core</h1>
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Demo Index</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Git core</h1>
+      <p class="subtitle">Thử nghiệm</p>
+    </header>
+
+    <main class="content">
+      <section class="card">
+        <h2>Hướng dẫn</h2>
+        <p>
+          Chỉnh sửa file <code>index.html</code> và <code>index.css</code>, rồi
+          commit & push để thử.
+        </p>
+        <button id="testBtn">Bấm thử</button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 — Demo</p>
+    </footer>
+
+    <script>
+      document.getElementById("testBtn").addEventListener("click", () => {
+        alert(
+          "Button clicked — thay đổi local đã lưu? (Ctrl+S) rồi commit & push nhé!"
+        );
+      });
+    </script>
+  </body>
+</html>
